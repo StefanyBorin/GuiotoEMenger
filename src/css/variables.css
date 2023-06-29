@@ -1,0 +1,16 @@
+
+
+:root{
+    /*Cores principais*/
+
+    --extra-claro-principal:#d8c6c6;
+    --claro-principal:#debba5;
+    --medium-principal:#9f715f;
+    --escuro-principal:#6f4b3b;
+
+    /*Cores secundarias*/
+
+    --white:#f7f7f7;
+    --cinza-escuro:#222;
+    --escuro-secundario:#111;
+}
