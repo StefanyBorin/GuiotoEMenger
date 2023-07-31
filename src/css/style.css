@@ -10,3 +10,400 @@
 
 
 /*---------CONTATOS---------*/
+
+.contatos{
+    background-color: var(--white);
+}
+
+.box-contatos-titulo{
+    height: 300px;
+    padding: 50px;
+    background-color: var(--claro-principal);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contato-titulo{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.contato-paragrafo{
+    font-size: 24px;
+
+}
+
+.box-card-contatos{
+    padding: 100px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: var(--claro-principal);
+    box-shadow: 1px -1px 42px 0px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.card p{
+    margin-bottom: 5px;
+
+}
+
+.card-image{
+    width: 50px;
+}
+
+.box-formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formulario input{
+    height: 50px;
+    width: 500px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.formulario textarea{
+    height: 100px;
+    width: 500px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.formulario button{
+    display: block;
+    margin:0 auto;
+    width: 200px;
+    padding: 20px 40px;
+    outline: none;
+    background-color: var(--claro-principal);
+    color: var(--white);
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario button:hover{
+
+    background-color: var(--medium-principal);
+    transition: all .5s ease-in-out;
+
+}
+
+.form-image{
+    width: 300px;
+}
+
+.box-mapa iframe{
+    width: 100%;
+    height: 300px;
+    margin: 50px 0 0px;
+    object-fit: cover;
+}
+
+
+
+
+/*---------RODAPE---------*/
+
+.rodape{
+    height: 150px;
+    width: 100%;
+    padding: 20px 0;
+    background-color: var(--claro-principal);
+    font-size: 16px;
+    text-align: center;
+}
+
+.box-social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.linkedin-logo{
+    width: 50px;
+}
+.insta-logo{
+    width: 40px;
+}
+.face-logo{
+    width: 40px;
+}
+
+.linha{
+    background-color: var(--medium-principal);
+    width: 100%;
+    margin: 20px 0;
+    opacity: .6;
+}
+
+/* TABLET CONFIG */
+
+@media (max-width: 900px){
+    /*---------HOME---------*/
+
+
+
+/*---------SOBRE---------*/
+
+
+/*---------SERVIÇOS---------*/
+
+
+
+/*---------CONTATOS---------*/
+
+.contatos{
+    background-color: var(--white);
+}
+
+.box-contatos-titulo{
+    height: 200px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.contato-titulo{
+    font-size: 30px;
+}
+
+.contato-paragrafo{
+    font-size: 18px;
+
+}
+
+.box-card-contatos{
+    padding: 50px;
+    gap: 30px;
+
+}
+
+.titulo-card{
+    font-size: 16px;
+}
+
+.card p{
+    margin-bottom: 5px;
+
+}
+
+.card-image{
+    width: 40px;
+}
+
+.box-textos-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-align: center;
+}
+
+.box-formulario{
+    flex-direction: column;
+    gap: 50px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formulario button{
+    width: 150px;
+    font-size: 18px;
+}
+
+.form-image{
+    width: 250px;
+}
+
+.box-mapa iframe{
+    height: 200px;
+}
+
+
+
+
+/*---------RODAPE---------*/
+
+.rodape{
+    height: 150px;
+    font-size: 14px;
+}
+
+
+.linkedin-logo{
+    width: 40px;
+}
+.insta-logo{
+    width: 30px;
+}
+.face-logo{
+    width: 30px;
+}
+
+}
+
+/* MOBILE CONFIG */
+
+@media (max-width: 500px){
+    /*---------HOME---------*/
+
+
+
+/*---------SOBRE---------*/
+
+
+/*---------SERVIÇOS---------*/
+
+
+
+/*---------CONTATOS---------*/
+
+.contatos{
+    background-color: var(--white);
+}
+
+.box-contatos-titulo{
+    height: 200px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.contato-titulo{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.contato-paragrafo{
+    font-size: 16px;
+
+}
+
+.box-card-contatos{
+    padding: 40px;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.card{
+    height: 200px;
+    width: 250px;
+    gap: 20px;
+
+}
+
+.titulo-card{
+    font-size: 16px;
+}
+
+
+.card-image{
+    width: 30px;
+}
+
+.box-textos-formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+
+
+.box-formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario input{
+    height: 40px;
+    width: 300px;
+
+}
+
+.formulario textarea{
+    height: 100px;
+    width: 300px;
+}
+.form-image{
+    width: 200px;
+}
+
+.formulario button{
+    width: 120px;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 16px;
+}
+
+
+.box-mapa iframe{
+    height: 200px;
+    margin: 30px 0 0px;
+
+}
+
+
+/*---------RODAPE---------*/
+
+.rodape{
+    height: 150px;
+    width: 100%;
+    padding: 20px 0;
+    font-size: 12px;
+}
+
+.box-social-media{
+
+    gap: 10px;
+}
+.linkedin-logo{
+    width: 30px;
+}
+.insta-logo{
+    width: 25px;
+}
+.face-logo{
+    width: 22px;
+}
+
+.linha{
+    margin: 10px 0;
+}
+}

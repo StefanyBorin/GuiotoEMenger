@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -8,10 +8,10 @@
     <title>Guioto&Menger</title>
 
     <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/variables.css">
     <link rel="stylesheet" href="./src/css/menu.css">
-
 </head>
 
 <body>
@@ -44,13 +44,88 @@
 
 
 
-        <section class="contatos" id="contatos"></section>
+        <section class="contatos" id="contatos">
+            <div class="box-contatos-titulo">
+                <h2 class="contato-titulo">Nossos contatos</h2>
+                <p class="contato-paragrafo">Conheça nossos canais de atendimento.</p>
+                <p class="contato-paragrafo">Entre em contato através do formulário abaixo, retornaremos o mais rápido
+                    possível.</p>
+            </div>
+            <div class="box-card-contatos">
+                <div class="card">
+                    <img src="./src/assets/phone.svg" alt="imagem telefone" class="card-image">
+                    <h3 class="titulo-card">Telefone</h3>
+                    <div>
+                        <p class="numero-telefone">(99) 9 9999-9999</p>
+                        <p class="numero-telefone">(99) 9 9999-9999</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./src/assets/local.svg" alt="imagem endereco" class="card-image">
+                    <h3 class="titulo-card">Endereço</h3>
+                    <p class="endereco">Rua: Rua dos Bobos, Nº 00</p>
+                </div>
+                <div class="card">
+                    <img src="./src/assets/email.svg" alt="imagem email" class="card-image">
+                    <h3 class="titulo-card">Email</h3>
+                    <div>
+                        <p class="email">contato@contato.com</p>
+                        <p class="email">contato@email.com.br</p>
+                    </div>
+                </div>
 
+            </div>
+            <div class="box-formulario">
+                <div class="box-textos-formulario">
+                    <h3>Contato</h3>
+                    <h2>Entre em Contato</h2>
+                    <p>Ficaremos felizes em receber sua mensagem</p>
+                    <img class="form-image" src="./src/assets/form-image.svg" alt="image">
+
+                </div>
+                <form action="#" class="formulario">
+                    <input placeholder="Nome" id="name" type="text">
+                    <input placeholder="Email" id="email" type="email">
+                    <input placeholder="Telefone" id="phone" type="number">
+                    <textarea name="mensagem" id="mensagem" placeholder="Mensagem"></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+
+            </div>
+
+            <div class="box-mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29311.78765989127!2d-51.38936707018673!3d-23.316721793093482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eca79579d8070b%3A0x86c186f3adc758ae!2sRol%C3%A2ndia%2C%20PR%2C%2086600-000!5e0!3m2!1spt-BR!2sbr!4v1690824303259!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
     </main>
+    <section class="rodape">
+        <div class="box-social-media">
+            <a href="#">
+                <img class="linkedin-logo" src="./src/assets/linkedin.svg" alt="linkedin image">
+            </a>
+            <a href="#">
+                <img class="insta-logo" src="./src/assets/instagram.svg" alt="instagram image">
+            </a>
+            <a href="#">
+                <img class="face-logo" src="./src/assets/facebook.svg" alt="facebook image">
+            </a>
+
+ 
+
+        </div>
+        <hr class="linha">
+        <p>Guioto&Menger ©Todos os Direitos reservados. Desenvolvido por Vagner & Stefany Frontend Developers </p>
+    </section>
 
 
 
-    <script src="./src/js/index.js"></script>
+
+
 </body>
+<script src="./src/js/index.js"></script>
 
 </html>
