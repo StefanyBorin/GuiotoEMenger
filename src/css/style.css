@@ -6,6 +6,59 @@
 
 
 /*---------SERVIÇOS---------*/
+.servicos{
+    background-color: var(--white);
+}
+
+.box-servicos-titulo{
+    height: 300px;
+    padding: 50px;
+    background-color: var(--extra-claro-principal);
+    display: flex;
+    justify-content: center;
+    gap: 350px;
+}
+
+.servicos-image{
+    height: 200px;
+}
+
+.servicos-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box-image-servicos{
+    display: flex;
+}
+
+.box-image-servicos{
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 30px;
+}
+
+.box-card-servicos{
+    width: 400px;
+    height: 400px;
+    box-shadow: 1px -1px 42px 0px rgba(0,0,0,0.20);
+
+    transition: all 0.6s;
+
+}
+
+
+.box-card-servicos:hover{
+    border: 1px solid black;
+    transform: scale(1.08);
+
+}
 
 
 
@@ -18,7 +71,7 @@
 .box-contatos-titulo{
     height: 300px;
     padding: 50px;
-    background-color: var(--claro-principal);
+    background-color: var(--extra-claro-principal);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,8 +100,8 @@
     height: 250px;
     width: 400px;
     border-radius: 10px;
-    background-color: var(--claro-principal);
-    box-shadow: 1px -1px 42px 0px rgba(0,0,0,0.15);
+    background-color: var(--extra-claro-principal);
+    box-shadow: 1px -1px 42px 0px rgba(0,0,0,0.20);
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -97,7 +150,7 @@
     width: 200px;
     padding: 20px 40px;
     outline: none;
-    background-color: var(--claro-principal);
+    background-color: var(--extra-claro-principal);
     color: var(--white);
     font-weight: 500;
     font-size: 20px;
@@ -108,7 +161,7 @@
 
 .formulario button:hover{
 
-    background-color: var(--medium-principal);
+    background-color: var(--claro-principal);
     transition: all .5s ease-in-out;
 
 }
@@ -133,7 +186,7 @@
     height: 150px;
     width: 100%;
     padding: 20px 0;
-    background-color: var(--claro-principal);
+    background-color: var(--extra-claro-principal);
     font-size: 16px;
     text-align: center;
 }
@@ -284,7 +337,6 @@
 /*---------SERVIÇOS---------*/
 
 
-
 /*---------CONTATOS---------*/
 
 .contatos{
@@ -407,3 +459,4 @@
     margin: 10px 0;
 }
 }
+
