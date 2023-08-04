@@ -8,15 +8,36 @@
 /*---------SERVIÇOS---------*/
 .servicos{
     background-color: var(--white);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .box-servicos-titulo{
     height: 300px;
-    padding: 50px;
+    width: 100%;
     background-color: var(--extra-claro-principal);
     display: flex;
     justify-content: center;
-    gap: 350px;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    gap: 200px;
+}
+
+.servicos-titulo{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.servicos-paragrafo{
+    font-size: 24px;
+}
+
+.box-servicos-titulo p{
+    width: 500px;
 }
 
 .servicos-image{
@@ -33,25 +54,81 @@
     display: flex;
 }
 
+
 .box-image-servicos{
+    max-width: 1200px;
     flex-wrap: wrap;
     width: 100%;
     background-color: var(--white);
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     padding: 50px;
     gap: 30px;
 }
 
 .box-card-servicos{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     box-shadow: 1px -1px 42px 0px rgba(0,0,0,0.20);
-
     transition: all 0.6s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
 
 }
+
+.box-texto-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: transparent;
+    color: transparent;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+
+}
+
+.box-texto-card:hover{
+    background-color:rgba(255,255,255,0.75);
+    color: #000;
+
+}
+
+
+.card-1{
+    background-image: url('https://www.picsum.photos/400?random1');
+}
+.card-2{
+    background-image: url('https://www.picsum.photos/400?random2');
+}
+.card-3{
+    background-image: url('https://www.picsum.photos/400?random3');
+}
+.card-4{
+    background-image: url('https://www.picsum.photos/400?random4');
+}
+.card-5{
+    background-image: url('https://www.picsum.photos/400?random5');
+}
+.card-6{
+    background-image: url('https://www.picsum.photos/400?random6');
+}
+.card-7{
+    background-image: url('https://www.picsum.photos/400?random7');
+}
+.card-8{
+    background-image: url('https://www.picsum.photos/400?random8');
+}
+.card-9{
+    background-image: url('https://www.picsum.photos/400?random9');
+}
+
 
 
 .box-card-servicos:hover{
@@ -66,15 +143,18 @@
 
 .contatos{
     background-color: var(--white);
+    width: 100%;
 }
 
 .box-contatos-titulo{
     height: 300px;
+    width: 100%;
     padding: 50px;
     background-color: var(--extra-claro-principal);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 20px;
 }
 
