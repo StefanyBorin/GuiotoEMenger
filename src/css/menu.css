@@ -1,1 +1,14 @@
 /* Menu hamburguer*/
+
+.menu-hamburguer{
+    position: absolute;
+    right: 80px;
+}
+
+.menu-hamburguer:after{
+    background-color: var(--marron-forte);
+}
+
+.menu-hamburguer:before{
+    background-color: var(--marron-forte);
+}
