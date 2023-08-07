@@ -138,10 +138,6 @@ body{
 
 .box-image-servicos{
     display: flex;
-}
-
-
-.box-image-servicos{
     max-width: 1200px;
     flex-wrap: wrap;
     width: 100%;
@@ -157,7 +153,6 @@ body{
     width: 300px;
     height: 300px;
     box-shadow: 1px -1px 42px 0px rgba(0,0,0,0.20);
-    transition: all 0.6s;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
@@ -176,13 +171,12 @@ body{
     text-align: center;
     font-size: 20px;
     cursor: pointer;
-    transition: all .5s ease-in-out;
-
 }
 
 .box-texto-card:hover{
     background-color:rgba(255,255,255,0.75);
     color: #000;
+    transition: all .6s ease-in-out;
 
 }
 
@@ -205,21 +199,10 @@ body{
 .card-6{
     background-image: url('https://www.picsum.photos/400?random6');
 }
-.card-7{
-    background-image: url('https://www.picsum.photos/400?random7');
-}
-.card-8{
-    background-image: url('https://www.picsum.photos/400?random8');
-}
-.card-9{
-    background-image: url('https://www.picsum.photos/400?random9');
-}
-
 
 
 .box-card-servicos:hover{
-    border: 1px solid black;
-    transform: scale(1.08);
+    border: 2px solid var(--escuro-principal);
 
 }
 
@@ -392,6 +375,22 @@ body{
 
 /*---------SERVIÇOS---------*/
 
+.box-servicos-titulo{
+    height: 200px;
+    padding: 20px;
+}
+
+.servicos-titulo{
+    font-size: 30px;
+}
+
+.servicos-paragrafo{
+    font-size: 18px;
+}
+
+.box-servicos-titulo p{
+    width: 400px;
+}
 
 
 /*---------CONTATOS---------*/
@@ -501,13 +500,48 @@ body{
 
 
 /*---------SERVIÇOS---------*/
+.box-servicos-titulo{
+    height: 200px;
+    padding: 20px;
+}
+
+.servicos-titulo{
+    font-size: 25px;
+}
+
+.servicos-paragrafo{
+    font-size: 16px;
+}
+
+.box-servicos-titulo p{
+    width: 300px;
+}
+
+
+.box-card-servicos{
+    width: 250px;
+    height: 250px;
+
+}
+
+.box-texto-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: transparent;
+    color: transparent;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
 
 
 /*---------CONTATOS---------*/
 
-.contatos{
-    background-color: var(--white);
-}
 
 .box-contatos-titulo{
     height: 200px;
@@ -516,7 +550,6 @@ body{
 }
 
 .contato-titulo{
-    text-transform: uppercase;
     font-size: 25px;
 }
 
@@ -624,5 +657,12 @@ body{
 .linha{
     margin: 10px 0;
 }
+}
+
+
+ /* ANIMAÇÕES DO SITE */
+
+.box-card-servicos,.box-card-contatos, .box-formulario{
+    visibility: hidden
 }
 
