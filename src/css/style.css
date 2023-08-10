@@ -15,8 +15,6 @@ body{
 
 }
 
-
-
 .menu{
     display: flex;
     align-items: center;
@@ -58,6 +56,7 @@ body{
     margin-top: 10px;
     margin-left: 80px;
 }
+
 .contorno-img{
     position: relative;
     border-radius: 50%;
@@ -67,6 +66,7 @@ body{
     border-radius: 50%;
     margin-right: 20px;
 }
+
 .img-logo{
     position: absolute;
     height: 60px;
@@ -87,6 +87,39 @@ body{
 
 
 /*---------HOME---------*/
+.home{
+    background-color: var(--claro-principal);
+    height: 500px;
+    width: 100%;
+    padding-left: 80px;
+}.lista-contatos{
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    background-color: aqua;
+    width: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-home{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.container-orçamento{
+    background-color: blue;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
 
 /*---------SOBRE---------*/
 
